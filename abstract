@@ -1,0 +1,23 @@
+abstract class richest {
+  
+  public abstract void richestperson();
+  
+  public void money() {
+    System.out.println("$128billion");
+  }
+}
+
+
+class Adani extends richest {
+  public void richestperson() {
+    System.out.println("The Richest Person: Gautam Adani");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Adani richadani = new Adani();
+    richadani.richestperson();
+    richadani.money();
+  }
+}
