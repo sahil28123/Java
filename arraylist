@@ -1,0 +1,23 @@
+import java.util.*;  
+ public class arraylist{  
+ public static void main(String args[]){  
+  ArrayList<String> list=new ArrayList<String>();    
+      list.add("rose tea");   
+      list.add("elachi tea");    
+      list.add("chocolate tea");    
+      list.add("ginger tea");    
+        
+      Collections.sort(list);  
+    
+      for(String tea:list)  
+      System.out.println(tea); 
+       
+      list.remove("chocolate tea");
+       System.out.println("After remove:");
+
+      for(String tea:list)  
+      System.out.println(tea);
+
+ 
+ }  
+}  
